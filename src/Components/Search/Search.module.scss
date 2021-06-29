@@ -1,0 +1,39 @@
+.Search {
+    height:10vh;
+    background-color:#1d3557;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-top:50px;
+}
+
+.Search__Input {
+    width:350px;
+    border-radius:8px;
+    border:0;
+    background-color:#f1faee;
+    color:white;
+    padding:10px;
+    font-size:18px;
+    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+    }
+    &:focus {
+        outline:none;
+    }
+}
+
+.Search__Icon {
+    height:60px;
+    width:50px;
+    background-color:#f1faee;
+    display:grid;
+    place-items:right;
+}
+
+.Form {
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding-bottom:30px;
+}

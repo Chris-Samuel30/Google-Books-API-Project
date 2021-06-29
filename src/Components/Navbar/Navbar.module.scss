@@ -1,0 +1,16 @@
+.navbar {
+   display:flex; 
+   height:75px;
+   background-color:#a8dadc;
+   border-bottom:3px solid #e63946;
+
+   &__logo {
+       width:200px;
+       object-fit:contain;
+       background-color:#a8dadc
+   }
+   &__spacer {
+       height:300px;
+   }
+}
+

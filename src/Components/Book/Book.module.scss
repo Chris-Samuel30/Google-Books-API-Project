@@ -1,0 +1,67 @@
+.Book {
+    margin:5px;
+    padding:10px;
+    border-radius:12px;
+    background-color:#457b9d;
+    font-family:Arial;
+    color:white;
+}
+
+.Description {
+    max-width:300ch;
+}
+
+.Flex {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    flex-wrap:wrap;
+    height:100%;
+}
+
+.Error {
+    color:white;
+    text-align:center;
+    justify-content:center;
+    place-items:center;
+}
+
+.Image {
+    max-height:150px;
+}
+
+.moreText {
+    display:none;
+}
+
+.readMore {
+    padding:10px;
+
+}
+
+.button {
+    display:flex;
+    text-align:center;
+    justify-content:end;
+    align-items:flex-end;
+    margin-top:auto;
+}
+
+
+.Button {
+    background-color:#457b9d;
+    size:1rem;
+    border-radius:12px;
+    padding:8px 20px;
+    color:white;
+    margin-top:10px;
+    font-family:Arial;
+    outline:none;
+    border:none;
+
+    &:hover {
+        background-color:lighten(#457b9d, 1);
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,16 @@
+.Button {
+    background-color:#e63946;
+    size:1rem;
+    border-radius:12px;
+    padding:8px 40px;
+    color:white;
+    margin-top:20px;
+    font-family:Arial;
+    outline:none;
+    border:none;
+
+    &:hover {
+        background-color:darken(#e63946, 3);
+        cursor: pointer;
+    }
+}
