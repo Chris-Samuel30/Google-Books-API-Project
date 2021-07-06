@@ -6,7 +6,7 @@ const Books = ({books, setBooks}) => {
 
 return(
 <div className={styles.Container}>
-<div className={books.totalitems === 0  ? styles.Container : styles.Grid}>
+<div className={styles.Grid}>
 <Book books={books} />
  </div>
  </div>
